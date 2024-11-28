@@ -7,7 +7,7 @@ app.use(express.json());
 let pessoas = [
   { id: 1, nome: 'Dani' },
   { id: 2, nome: 'Paola' },
-  { id: 3, nome: 'Alez' }
+  { id: 3, nome: 'Alex' }
 ];
 
 app.get('/pessoa', (req, res) => {
