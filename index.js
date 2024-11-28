@@ -5,9 +5,9 @@ const port = 3002;
 app.use(express.json());
 
 let pessoas = [
-  { id: 1, nome: 'João' },
-  { id: 2, nome: 'Maria' },
-  { id: 3, nome: 'José' }
+  { id: 1, nome: 'Dani' },
+  { id: 2, nome: 'Paola' },
+  { id: 3, nome: 'Alez' }
 ];
 
 app.get('/pessoa', (req, res) => {
